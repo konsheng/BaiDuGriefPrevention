@@ -1,0 +1,4 @@
+name: MessageRateLimiter
+version: '${version}'
+main: org.konsheng.mingkonggriefprevention.MessageRateLimiter
+api-version: '1.20'

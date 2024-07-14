@@ -82,11 +82,11 @@ public class MessageRateLimiter extends JavaPlugin implements Listener {
                 if (checkAndApplySanctions(player)) {
                     Bukkit.getScheduler().runTask(this, () -> {
                         // 违规处罚
-                        player.playSound(player.getLocation(), Sound.BLOCK_ANVIL_LAND, 1.0F, 1.0F);
-                        player.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "! " + ChatColor.WHITE + "您因不适当的发言被系统禁言 10 分钟");
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "bossbarmsg " + player.getName() + " -sec:600 -t:600 -c:red -s:1 &c您因不适当的发言被系统禁言 10 分钟");
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "mute " + player.getName() + " 10m &c频繁多次不适当的发言");
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "warn " + player.getName() + " &c频繁多次不适当的发言");
+                        // player.playSound(player.getLocation(), Sound.BLOCK_ANVIL_LAND, 1.0F, 1.0F);
+                        // player.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "! " + ChatColor.WHITE + "您因不适当的发言被系统禁言 10 分钟");
+                        // Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "bossbarmsg " + player.getName() + " -sec:600 -t:600 -c:red -s:1 &c您因不适当的发言被系统禁言 10 分钟");
+                        // Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "mute " + player.getName() + " 10m &c频繁多次不适当的发言");
+                        // Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "warn " + player.getName() + " &c频繁多次不适当的发言");
                     });
                 } else {
                     Bukkit.getScheduler().runTask(this, () -> {

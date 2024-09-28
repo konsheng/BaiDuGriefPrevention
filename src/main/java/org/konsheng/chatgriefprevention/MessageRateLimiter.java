@@ -1,4 +1,4 @@
-package org.konsheng.mingkonggriefprevention;
+package org.konsheng.chatgriefprevention;
 
 import okhttp3.*;
 import org.bukkit.Bukkit;

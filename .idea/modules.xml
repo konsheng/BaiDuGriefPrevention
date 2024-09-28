@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MingKongGriefPrevention.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MingKongGriefPrevention.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.konsheng.mingkonggriefprevention.MingKongGriefPrevention.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.konsheng.mingkonggriefprevention.MingKongGriefPrevention.main.iml" />
     </modules>
   </component>
 </project>
